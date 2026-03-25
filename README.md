@@ -1,8 +1,8 @@
 ﻿# VALAPP — Modern Desktop Companion for VALORANT
 
-[![Download](https://img.shields.io/badge/Download-Latest%20Release-green)](https://github.com/Main-Zenato/VALAPP-desktop/releases)
-![Downloads](https://img.shields.io/github/downloads/Main-Zenato/VALAPP-desktop/total)
-![Platform](https://img.shields.io/badge/platform-Windows-blue)
+[![Download](https://img.shields.io/badge/Download-Latest%20Release-green?style=for-the-badge)](https://github.com/Main-Zenato/VALAPP-desktop/releases/latest)
+![Downloads](https://img.shields.io/github/downloads/Main-Zenato/VALAPP-desktop/total?cacheSeconds=0)
+![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11-blue)
 
 VALAPP is a **lightweight, secure, and high-performance desktop companion for VALORANT**.  
 It is designed for players who want **full control over their inventory and game insights** without dealing with the slow menus of the official client.
