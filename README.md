@@ -25,10 +25,18 @@ As soon as you enter the **Pregame phase**, VALAPP analyzes network data to prov
 
 ---
 
+## ⚡ Quick Match Dodge
+Need to leave a match during agent select?
+
+VALAPP provides a **fast and simple way to dodge a game during the Agent Selection phase**, with clear user confirmation and no automation.
+
+---
+
 # ✨ Core Features
 
 ### 🎒 Advanced Collection Manager
-View your entire inventory of **skins, buddies, sprays, and cosmetics** in a sleek and modern dashboard.
+View your entire inventory of **skins, buddies, sprays, and cosmetics** in a sleek and modern dashboard.  
+You can also **manage and equip your items freely**, and access the **catalog view** directly from the collection.
 
 ### 🛒 Store & Night.Market Tracker
 Check your **daily weapon store offers** and **Night.Market discounts** instantly without launching the game.
@@ -36,12 +44,22 @@ Check your **daily weapon store offers** and **Night.Market discounts** instantl
 ### 👥 Secure Multi-Account Management
 Switch between different **Riot accounts in seconds**.
 
+### 🎮 Improved Party Experience
+The party interface has been **redesigned to better distinguish party information**, making it clearer and easier to use.
+
 ### 🔒 100% Local & Private
 Your credentials are stored securely using **Windows Credential Manager**.
 
 - No data ever leaves your computer  
 - No analytics  
-- No external tracking
+- No external tracking  
+
+---
+
+# 🎨 UI & Performance Improvements
+
+- Improved **rendering and display scaling** for better consistency across different screen sizes and resolutions
+- Enhanced overall UI clarity and usability across the app
 
 ---
 
@@ -73,6 +91,9 @@ Your credentials are stored securely using **Windows Credential Manager**.
 
 VALAPP is an **independent third-party application** and is **not affiliated with Riot Games**.
 
-VALAPP does **not interact with game memory, files, or Vanguard**, making it **anti-cheat safe by design**.
+VALAPP does **not interact with the game client, game files, logs, or Vanguard (anti-cheat)**.  
+It does not read or modify game memory and does not inject any code.
 
-However, the use of third-party tools is **at the user's own discretion**.
+The application operates externally and is designed to respect the integrity of the game.
+
+Use of third-party tools remains **at the user's own discretion**.
