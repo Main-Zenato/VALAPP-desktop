@@ -83,7 +83,7 @@ Your credentials are stored securely using **Windows Credential Manager**.
 
 - **Framework:** .NET 8  
 - **Architecture:** WPF (Windows Presentation Foundation) using MVVM  
-- **Versioning:** Automatically synchronized with the latest live client version (currently `release-12.04`)
+- **Versioning:** Automatically synchronized with the latest live client version (currently `release-12.06`)
 
 ---
 
