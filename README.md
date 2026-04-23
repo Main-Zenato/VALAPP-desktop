@@ -19,7 +19,6 @@ VALAPP Desktop has been fully rebuilt on **Tauri 2** (Rust backend + TypeScript/
 
 | What changed | Why it matters |
 |---|---|
-| **Rust backend** | Compiled native binary — harder to reverse-engineer |
 | **Modern web UI** | Smooth animations, responsive layout, better visuals |
 | **Auto-updates** | In-app update check and install — no manual re-download |
 | **Multi-language UI** | English and French out of the box |
