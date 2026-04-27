@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Télécharger VALAPP Desktop / Download VALAPP Desktop</title>
+    <meta name="description" content="Téléchargez VALAPP Desktop — l'application gratuite pour VALORANT. Windows 10/11 uniquement.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="download-page">
+
+<nav class="navbar scrolled" id="navbar">
+    <div class="nav-inner">
+        <a href="index.html" class="nav-logo">VALAPP<span> Desktop</span></a>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="index.html#features" data-i18n="nav.features">Fonctionnalités</a></li>
+            <li><a href="index.html#screenshots" data-i18n="nav.preview">Aperçu</a></li>
+            <li><a href="index.html#faq" data-i18n="nav.faq">FAQ</a></li>
+        </ul>
+        <div class="lang-toggle">
+            <button class="lang-btn active" data-lang="fr">FR</button>
+            <button class="lang-btn" data-lang="en">EN</button>
+        </div>
+        <a href="#download" class="btn btn-primary nav-cta" data-i18n="nav.download">Télécharger</a>
+        <button class="nav-burger" id="burger" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+</nav>
+
+<main class="dl-main" id="download">
+    <div class="dl-glow"></div>
+    <div class="dl-inner">
+
+        <div class="dl-header">
+            <h1 data-i18n-html="dl.title">Télécharger <span class="accent">ValAPP</span></h1>
+            <p data-i18n-html="dl.subtitle">L'application desktop gratuite pour VALORANT.<br>Boutique, profil, collection, party — en dehors du jeu.</p>
+        </div>
+
+        <div class="dl-card">
+            <div class="dl-platform">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor"><path d="M0 3.449L9.75 2.1v9.451H0m10.949-9.602L24 0v11.4H10.949M0 12.6h9.75v9.451L0 20.699M10.949 12.6H24V24l-12.9-1.801"/></svg>
+                <div>
+                    <span class="dl-os" data-i18n="dl.os">Windows</span>
+                    <span class="dl-req" data-i18n="dl.req.platform">Windows 10 / 11 · 64-bit</span>
+                </div>
+            </div>
+
+            <div class="dl-info-row">
+                <div class="dl-info-item">
+                    <span class="dl-info-label" data-i18n="dl.ver.label">Version</span>
+                    <span class="dl-info-value" data-i18n="dl.ver.value" id="version-display">Dernière version</span>
+                </div>
+                <div class="dl-info-item">
+                    <span class="dl-info-label" data-i18n="dl.lic.label">Licence</span>
+                    <span class="dl-info-value" data-i18n="dl.lic.value">Gratuit</span>
+                </div>
+                <div class="dl-info-item">
+                    <span class="dl-info-label" data-i18n="dl.type.label">Type</span>
+                    <span class="dl-info-value" data-i18n="dl.type.value">Installateur (.exe)</span>
+                </div>
+            </div>
+
+            <a href="https://github.com/Main-Zenato/VALAPP-desktop/releases/latest" class="btn btn-primary btn-xl dl-btn" id="dl-btn">
+                <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                <span data-i18n="dl.btn">Télécharger VALAPP Desktop</span>
+            </a>
+
+            <p class="dl-note">
+                <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+                <span data-i18n-html="dl.note">Si Windows affiche un avertissement "SmartScreen", cliquez <strong>Informations complémentaires → Exécuter quand même</strong>. Ce message apparaît pour tout nouveau logiciel non certifié.</span>
+            </p>
+        </div>
+
+        <div class="dl-steps">
+            <h2 data-i18n="dl.steps.title">Installation en 3 étapes</h2>
+            <div class="steps-grid">
+                <div class="step">
+                    <div class="step-num">1</div>
+                    <h3 data-i18n="dl.step1.title">Télécharger</h3>
+                    <p data-i18n="dl.step1.desc">Cliquez sur le bouton ci-dessus pour télécharger l'installateur depuis GitHub Releases.</p>
+                </div>
+                <div class="step">
+                    <div class="step-num">2</div>
+                    <h3 data-i18n="dl.step2.title">Installer</h3>
+                    <p data-i18n-html="dl.step2.desc">Lancez le fichier <code>.exe</code>, acceptez l'avertissement SmartScreen si nécessaire, et laissez l'installation se terminer.</p>
+                </div>
+                <div class="step">
+                    <div class="step-num">3</div>
+                    <h3 data-i18n="dl.step3.title">Connecter</h3>
+                    <p data-i18n="dl.step3.desc">Ouvrez ValAPP, connectez votre compte Riot via la fenêtre de login officielle — et c'est tout.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="dl-requirements">
+            <h2 data-i18n="dl.sysreq.title">Configuration requise</h2>
+            <div class="req-grid">
+                <div class="req-item">
+                    <span class="req-label" data-i18n="dl.sysreq1.l">Système</span>
+                    <span class="req-value" data-i18n="dl.sysreq1.v">Windows 10 / 11 (64-bit)</span>
+                </div>
+                <div class="req-item">
+                    <span class="req-label" data-i18n="dl.sysreq2.l">RAM</span>
+                    <span class="req-value" data-i18n="dl.sysreq2.v">~50 Mo</span>
+                </div>
+                <div class="req-item">
+                    <span class="req-label" data-i18n="dl.sysreq3.l">Stockage</span>
+                    <span class="req-value" data-i18n="dl.sysreq3.v">~10 Mo</span>
+                </div>
+                <div class="req-item">
+                    <span class="req-label" data-i18n="dl.sysreq4.l">Réseau</span>
+                    <span class="req-value" data-i18n="dl.sysreq4.v">Connexion internet requise</span>
+                </div>
+                <div class="req-item">
+                    <span class="req-label" data-i18n="dl.sysreq5.l">Compte</span>
+                    <span class="req-value" data-i18n="dl.sysreq5.v">Compte Riot Games actif</span>
+                </div>
+                <div class="req-item">
+                    <span class="req-label" data-i18n="dl.sysreq6.l">Mises à jour</span>
+                    <span class="req-value" data-i18n="dl.sysreq6.v">Automatiques</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="dl-footer-links">
+            <a href="index.html" class="btn btn-ghost" data-i18n="dl.back">← Retour à l'accueil</a>
+            <a href="https://github.com/Main-Zenato/VALAPP-desktop" class="btn btn-ghost" target="_blank" rel="noopener">
+                <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12"/></svg>
+                <span data-i18n="dl.github">Voir sur GitHub</span>
+            </a>
+        </div>
+
+    </div>
+</main>
+
+<footer class="footer footer-minimal">
+    <div class="footer-bottom">
+        <p data-i18n="footer.disclaimer">ValAPP n'est pas associé, affilié, approuvé ou sponsorisé par Riot Games. VALORANT™ est une marque déposée de Riot Games, Inc.</p>
+    </div>
+</footer>
+
+<script src="i18n.js"></script>
+<script>
+    const burger = document.getElementById('burger');
+    const navLinks = document.getElementById('nav-links');
+    burger.addEventListener('click', () => {
+        navLinks.classList.toggle('open');
+        burger.classList.toggle('active');
+    });
+
+    // Résolution du lien de téléchargement direct via l'API GitHub
+    (async function resolveDownload() {
+        const btn = document.getElementById('dl-btn');
+        const versionDisplay = document.getElementById('version-display');
+        const FALLBACK = 'https://github.com/Main-Zenato/VALAPP-desktop/releases/latest';
+
+        try {
+            const res = await fetch('https://api.github.com/repos/Main-Zenato/VALAPP-desktop/releases/latest');
+            if (!res.ok) return;
+            const data = await res.json();
+
+            // Trouver le setup .exe (pas le .sig ni le .json)
+            const asset = data.assets?.find(a => a.name.endsWith('.exe') && !a.name.endsWith('.sig'));
+            if (asset) {
+                btn.href = asset.browser_download_url;
+                btn.removeAttribute('target');
+                btn.removeAttribute('rel');
+            }
+
+            // Afficher la version réelle
+            if (data.tag_name && versionDisplay) {
+                versionDisplay.textContent = data.tag_name;
+            }
+        } catch {
+            btn.href = FALLBACK;
+        }
+    })();
+</script>
+</body>
+</html>

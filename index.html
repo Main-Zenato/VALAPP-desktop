@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VALAPP Desktop — L'application Valorant</title>
+    <meta name="description" content="VALAPP Desktop est une application gratuite pour VALORANT — boutique quotidienne, profil & stats, collection de skins, party, multi-comptes sécurisé.">
+    <meta property="og:title" content="VALAPP Desktop — The Valorant App">
+    <meta property="og:description" content="Daily shop, profile, skin collection, multi-account — all in one, free and local.">
+    <meta property="og:type" content="website">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<nav class="navbar" id="navbar">
+    <div class="nav-inner">
+        <a href="#home" class="nav-logo">VALAPP<span> Desktop</span></a>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#features" data-i18n="nav.features">Fonctionnalités</a></li>
+            <li><a href="#screenshots" data-i18n="nav.preview">Aperçu</a></li>
+            <li><a href="#faq" data-i18n="nav.faq">FAQ</a></li>
+        </ul>
+        <div class="lang-toggle">
+            <button class="lang-btn active" data-lang="fr">FR</button>
+            <button class="lang-btn" data-lang="en">EN</button>
+        </div>
+        <a href="download.html" class="btn btn-primary nav-cta" data-i18n="nav.download">Télécharger</a>
+        <button class="nav-burger" id="burger" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+</nav>
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="home">
+    <div class="hero-glow"></div>
+    <div class="hero-inner">
+        <div class="hero-text">
+            <div class="hero-badge">
+                <span class="badge-dot"></span>
+                <span data-i18n="hero.badge">Windows 10 / 11</span>
+            </div>
+            <h1 data-i18n-html="hero.h1">L'application<br><span class="accent">Valorant</span><br>qu'il vous faut</h1>
+            <p class="hero-desc" data-i18n-html="hero.desc">Boutique quotidienne, profil & stats, collection de skins, party en live — tout en un, gratuit, rapide, et stocké <strong>uniquement sur votre PC</strong>.</p>
+            <div class="hero-actions">
+                <a href="download.html" class="btn btn-primary btn-lg">
+                    <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                    <span data-i18n="hero.cta1">Télécharger gratuitement</span>
+                </a>
+                <a href="#features" class="btn btn-ghost btn-lg" data-i18n="hero.cta2">Voir les fonctionnalités</a>
+            </div>
+            <div class="hero-meta">
+                <span data-i18n="hero.meta.free">Gratuit</span>
+                <span class="dot">·</span>
+                <span data-i18n="hero.meta.local">Données 100% locales</span>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="app-mockup">
+                <div class="mockup-titlebar">
+                    <div class="mockup-controls">
+                        <span class="mc red"></span>
+                        <span class="mc yellow"></span>
+                        <span class="mc green"></span>
+                    </div>
+                    <span class="mockup-title">VALAPP Desktop</span>
+                </div>
+                <div class="mockup-body">
+                    <div class="mockup-sidebar">
+                        <div class="mockup-avatar"></div>
+                        <div class="mockup-nav-item active"></div>
+                        <div class="mockup-nav-item"></div>
+                        <div class="mockup-nav-item"></div>
+                        <div class="mockup-nav-item"></div>
+                        <div class="mockup-nav-item"></div>
+                        <div class="mockup-nav-item"></div>
+                    </div>
+                    <div class="mockup-content">
+                        <div class="mockup-header-bar"></div>
+                        <div class="mockup-skins-row">
+                            <div class="mockup-skin-card">
+                                <div class="mockup-skin-img"></div>
+                                <div class="mockup-skin-name"></div>
+                                <div class="mockup-skin-price"></div>
+                            </div>
+                            <div class="mockup-skin-card">
+                                <div class="mockup-skin-img accent"></div>
+                                <div class="mockup-skin-name"></div>
+                                <div class="mockup-skin-price"></div>
+                            </div>
+                            <div class="mockup-skin-card">
+                                <div class="mockup-skin-img"></div>
+                                <div class="mockup-skin-name"></div>
+                                <div class="mockup-skin-price"></div>
+                            </div>
+                            <div class="mockup-skin-card">
+                                <div class="mockup-skin-img"></div>
+                                <div class="mockup-skin-name"></div>
+                                <div class="mockup-skin-price"></div>
+                            </div>
+                        </div>
+                        <div class="mockup-bundle-card">
+                            <div class="mockup-bundle-img"></div>
+                            <div class="mockup-bundle-info">
+                                <div class="mockup-line wide"></div>
+                                <div class="mockup-line medium"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== FEATURES ===== -->
+<section class="features" id="features">
+    <div class="section-inner">
+        <div class="section-header">
+            <h2 data-i18n="features.title">Tout ce dont vous avez besoin</h2>
+            <p data-i18n="features.subtitle">Toutes les informations importantes de Valorant, accessibles sans lancer le jeu.</p>
+        </div>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+                </div>
+                <h3 data-i18n="feat1.title">Boutique quotidienne</h3>
+                <p data-i18n="feat1.desc">Vos 4 skins du jour, les bundles en vedette et les accessoires disponibles avec leurs prix VP/KC — sans avoir à lancer Valorant.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+                </div>
+                <h3 data-i18n="feat2.title">Profil & Statistiques</h3>
+                <p data-i18n="feat2.desc">Rang actuel, peak, Win Rate, K/D, HS% — calculés sur tous vos matchs avec historique détaillé et inspection de chaque partie.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/><line x1="12" y1="12" x2="12" y2="16"/><line x1="10" y1="14" x2="14" y2="14"/></svg>
+                </div>
+                <h3 data-i18n="feat3.title">Party & Live Match</h3>
+                <p data-i18n="feat3.desc">Gérez votre salon, changez de mode de jeu, inspectez les rangs de chaque joueur pendant le pregame et le coregame.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                </div>
+                <h3 data-i18n="feat4.title">Collection de skins</h3>
+                <p data-i18n="feat4.desc">Parcourez tous vos skins par arme, visualisez les niveaux et variantes. Équipez directement depuis l'app, avant de lancer une partie.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+                </div>
+                <h3 data-i18n="feat5.title">Contrats & Battlepass</h3>
+                <p data-i18n="feat5.desc">Suivez vos missions daily et weekly groupées par semaine, la progression du battlepass et les récompenses à venir.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                </div>
+                <h3 data-i18n="feat6.title">Liste d'amis</h3>
+                <p data-i18n="feat6.desc">Présence Riot en temps réel via XMPP — statut, jeu en cours, rang, file d'attente. Inspectez le profil d'un ami en un clic.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+                </div>
+                <h3 data-i18n="feat7.title">Multi-comptes sécurisé</h3>
+                <p data-i18n="feat7.desc">Gérez plusieurs comptes Riot simultanément. Sessions chiffrées par DPAPI Windows, aucune donnée envoyée à des serveurs tiers.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+                </div>
+                <h3 data-i18n="feat8.title">Léger & rapide</h3>
+                <p data-i18n="feat8.desc">Construit avec Rust + Tauri. Binaire natif Windows, démarrage quasi instantané, empreinte mémoire minimale.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== SCREENSHOTS ===== -->
+<section class="screenshots" id="screenshots">
+    <div class="section-inner">
+        <div class="section-header">
+            <h2 data-i18n="screenshots.title">Aperçu de l'application</h2>
+            <p data-i18n="screenshots.subtitle">Interface sombre, 4 thèmes d'accent au choix. Entièrement en français et en anglais.</p>
+        </div>
+        <div class="screenshots-grid">
+            <div class="screenshot-item featured">
+                <img src="screenshots/store.png" alt="Store" class="screenshot-img" loading="lazy">
+                <div class="screenshot-label" data-i18n="ss1.label">Store — Offres du jour & bundle</div>
+            </div>
+            <div class="screenshot-item">
+                <img src="screenshots/profile.png" alt="Profil" class="screenshot-img" loading="lazy">
+                <div class="screenshot-label" data-i18n="ss2.label">Profil & Statistiques</div>
+            </div>
+            <div class="screenshot-item">
+                <img src="screenshots/collection.png" alt="Collection" class="screenshot-img" loading="lazy">
+                <div class="screenshot-label" data-i18n="ss3.label">Collection — Niveaux & variantes</div>
+            </div>
+            <div class="screenshot-item">
+                <img src="screenshots/party.png" alt="Party" class="screenshot-img" loading="lazy">
+                <div class="screenshot-label" data-i18n="ss4.label">Party — Salon & match en cours</div>
+            </div>
+            <div class="screenshot-item">
+                <img src="screenshots/contracts.png" alt="Contrats" class="screenshot-img" loading="lazy">
+                <div class="screenshot-label" data-i18n="ss5.label">Contrats & Battlepass</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== SAFE BANNER ===== -->
+<section class="safe-section">
+    <div class="section-inner">
+        <div class="safe-inner">
+            <div class="safe-icon">
+                <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <div class="safe-text">
+                <h3 data-i18n="safe.title">Fair-play garanti</h3>
+                <p data-i18n="safe.desc">ValAPP utilise exclusivement les API web officielles Riot via OAuth — le même mécanisme que le client Riot officiel. Aucune lecture de mémoire, aucune interaction avec Vanguard, aucun risque de ban.</p>
+            </div>
+            <div class="safe-badge" data-i18n="safe.badge">Anti-cheat safe</div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== FAQ ===== -->
+<section class="faq" id="faq">
+    <div class="section-inner">
+        <div class="section-header">
+            <h2 data-i18n="faq.title">Questions fréquentes</h2>
+        </div>
+        <div class="faq-list">
+            <details class="faq-item">
+                <summary>
+                    <span data-i18n="faq1.q">ValAPP est-il sûr à utiliser ?</span>
+                    <svg class="faq-chevron" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+                </summary>
+                <div class="faq-body"><p data-i18n="faq1.a">Oui. ValAPP communique uniquement via les API web officielles Riot, authentifiées par OAuth — exactement comme le client Riot ou un navigateur. L'application ne lit jamais la mémoire du jeu, n'accède pas au lockfile local et n'interagit en aucune façon avec Vanguard.</p></div>
+            </details>
+            <details class="faq-item">
+                <summary>
+                    <span data-i18n="faq2.q">Y a-t-il un risque de ban de compte ?</span>
+                    <svg class="faq-chevron" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+                </summary>
+                <div class="faq-body"><p data-i18n="faq2.a">Non. Toutes les requêtes sont des appels HTTP authentifiés aux serveurs Riot, sans aucun contact avec Vanguard ni les processus du jeu. C'est fonctionnellement identique à naviguer sur votre profil Riot depuis un navigateur.</p></div>
+            </details>
+            <details class="faq-item">
+                <summary>
+                    <span data-i18n="faq3.q">ValAPP est-il gratuit ?</span>
+                    <svg class="faq-chevron" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+                </summary>
+                <div class="faq-body"><p data-i18n="faq3.a">Oui, complètement gratuit. Le code source est disponible sur GitHub. Il n'y a ni abonnement, ni achat intégré, ni publicité.</p></div>
+            </details>
+            <details class="faq-item">
+                <summary>
+                    <span data-i18n="faq4.q">Où sont stockées mes données de connexion ?</span>
+                    <svg class="faq-chevron" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+                </summary>
+                <div class="faq-body"><p data-i18n="faq4.a">Tout reste sur votre PC. Aucune donnée n'est envoyée à des serveurs tiers. Vos sessions Riot sont chiffrées avec DPAPI Windows — le même mécanisme de chiffrement utilisé par Chrome et Edge pour vos mots de passe.</p></div>
+            </details>
+            <details class="faq-item">
+                <summary>
+                    <span data-i18n="faq5.q">Quels systèmes d'exploitation sont supportés ?</span>
+                    <svg class="faq-chevron" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+                </summary>
+                <div class="faq-body"><p data-i18n="faq5.a">Windows 10 et Windows 11 (64-bit) uniquement. macOS et Linux ne sont pas supportés pour le moment.</p></div>
+            </details>
+            <details class="faq-item">
+                <summary>
+                    <span data-i18n="faq6.q">Comment mettre à jour ValAPP ?</span>
+                    <svg class="faq-chevron" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+                </summary>
+                <div class="faq-body"><p data-i18n="faq6.a">Automatiquement. L'application vérifie les nouvelles versions au démarrage et propose de les installer en un clic. Vous pouvez aussi vérifier manuellement depuis la page Paramètres.</p></div>
+            </details>
+            <details class="faq-item">
+                <summary>
+                    <span data-i18n="faq7.q">Puis-je gérer plusieurs comptes Riot ?</span>
+                    <svg class="faq-chevron" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+                </summary>
+                <div class="faq-body"><p data-i18n="faq7.a">Oui. Vous pouvez connecter autant de comptes Riot que vous le souhaitez et basculer entre eux en un clic depuis la sidebar. Chaque session est stockée et chiffrée séparément.</p></div>
+            </details>
+            <details class="faq-item">
+                <summary>
+                    <span data-i18n="faq8.q">ValAPP est-il affilié à Riot Games ?</span>
+                    <svg class="faq-chevron" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+                </summary>
+                <div class="faq-body"><p data-i18n="faq8.a">Non. ValAPP est un projet indépendant, non affilié, non approuvé et non sponsorisé par Riot Games. VALORANT™ est une marque déposée de Riot Games, Inc.</p></div>
+            </details>
+            <details class="faq-item">
+                <summary>
+                    <span data-i18n="faq9.q">J'ai un problème, comment obtenir de l'aide ?</span>
+                    <svg class="faq-chevron" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+                </summary>
+                <div class="faq-body"><p data-i18n="faq9.a">Ouvrez une issue sur le dépôt GitHub en décrivant votre problème, votre version de Windows et la version de ValAPP. Les logs d'application (accessibles depuis les Paramètres) peuvent aussi aider au diagnostic.</p></div>
+            </details>
+        </div>
+    </div>
+</section>
+
+<!-- ===== DOWNLOAD CTA ===== -->
+<section class="download-cta">
+    <div class="section-inner">
+        <div class="cta-glow"></div>
+        <div class="cta-inner">
+            <h2 data-i18n="cta.title">Prêt à commencer ?</h2>
+            <p data-i18n="cta.subtitle">Gratuit. Sans inscription. Sans collecte de données.</p>
+            <a href="download.html" class="btn btn-primary btn-xl">
+                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                <span data-i18n="cta.btn">Télécharger ValAPP</span>
+            </a>
+            <div class="cta-meta" data-i18n="cta.meta">Windows 10 / 11 · 64-bit · Gratuit</div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+    <div class="footer-inner">
+        <div class="footer-brand">
+            <a href="#home" class="footer-logo">VALAPP<span> Desktop</span></a>
+            <p data-i18n-html="footer.brand">Application desktop pour VALORANT.<br>Projet indépendant, non affilié à Riot Games.</p>
+        </div>
+        <div class="footer-nav">
+            <div class="footer-col">
+                <h4 data-i18n="footer.col1.title">Application</h4>
+                <a href="#features" data-i18n="footer.features">Fonctionnalités</a>
+                <a href="#screenshots" data-i18n="footer.preview">Aperçu</a>
+                <a href="download.html" data-i18n="footer.download">Télécharger</a>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer.col2.title">Support</h4>
+                <a href="#faq" data-i18n="footer.faq">FAQ</a>
+                <a href="https://github.com/Main-Zenato/VALAPP-desktop/issues" target="_blank" rel="noopener" data-i18n="footer.bugreport">Signaler un bug</a>
+                <a href="https://github.com/Main-Zenato/VALAPP-desktop" target="_blank" rel="noopener">GitHub</a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p data-i18n="footer.disclaimer">ValAPP n'est pas associé, affilié, approuvé ou sponsorisé par Riot Games. VALORANT™ et tous les assets associés sont la propriété de Riot Games, Inc.</p>
+    </div>
+</footer>
+
+<!-- Lightbox -->
+<div id="lightbox" class="lightbox" role="dialog" aria-modal="true">
+    <button id="lightbox-close" class="lightbox-close" aria-label="Fermer">
+        <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+    <img id="lightbox-img" class="lightbox-img" src="" alt="">
+</div>
+
+<script src="i18n.js"></script>
+<script>
+    const burger = document.getElementById('burger');
+    const navLinks = document.getElementById('nav-links');
+    burger.addEventListener('click', () => {
+        navLinks.classList.toggle('open');
+        burger.classList.toggle('active');
+    });
+    navLinks.querySelectorAll('a').forEach(a => {
+        a.addEventListener('click', () => {
+            navLinks.classList.remove('open');
+            burger.classList.remove('active');
+        });
+    });
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+        navbar.classList.toggle('scrolled', window.scrollY > 40);
+    }, { passive: true });
+
+    // Lightbox
+    const lightbox    = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightbox-img');
+
+    document.querySelectorAll('.screenshot-img').forEach(img => {
+        img.style.cursor = 'zoom-in';
+        img.addEventListener('click', () => {
+            lightboxImg.src = img.src;
+            lightboxImg.alt = img.alt;
+            lightbox.classList.add('open');
+            document.body.style.overflow = 'hidden';
+        });
+    });
+
+    function closeLightbox() {
+        lightbox.classList.remove('open');
+        document.body.style.overflow = '';
+        setTimeout(() => { lightboxImg.src = ''; }, 300);
+    }
+
+    lightbox.addEventListener('click', e => {
+        if (e.target === lightbox) closeLightbox();
+    });
+    document.addEventListener('keydown', e => {
+        if (e.key === 'Escape') closeLightbox();
+    });
+    document.getElementById('lightbox-close').addEventListener('click', closeLightbox);
+</script>
+</body>
+</html>
