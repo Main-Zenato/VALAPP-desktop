@@ -4,6 +4,7 @@
 ![Downloads](https://img.shields.io/github/downloads/Main-Zenato/VALAPP-desktop/total?cacheSeconds=0)
 ![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11-blue)
 ![Built with Tauri](https://img.shields.io/badge/Tauri-2-FFC131?logo=tauri&logoColor=white)
+[![Discord](https://img.shields.io/badge/Discord-Join%20Server-5865F2?logo=discord&logoColor=white)](https://discord.gg/6BZekAEqDD)
 
 ## The fastest way to manage your VALORANT inventory.
 
