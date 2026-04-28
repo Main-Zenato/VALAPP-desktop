@@ -193,23 +193,23 @@
         </div>
         <div class="screenshots-grid">
             <div class="screenshot-item featured">
-                <img src="screenshots/store.png" alt="Store" class="screenshot-img" loading="lazy">
+                <img data-src-base="store" alt="Store" class="screenshot-img lang-aware" loading="lazy">
                 <div class="screenshot-label" data-i18n="ss1.label">Store — Offres du jour & bundle</div>
             </div>
             <div class="screenshot-item">
-                <img src="screenshots/profile.png" alt="Profil" class="screenshot-img" loading="lazy">
+                <img data-src-base="profile" alt="Profil" class="screenshot-img lang-aware" loading="lazy">
                 <div class="screenshot-label" data-i18n="ss2.label">Profil & Statistiques</div>
             </div>
             <div class="screenshot-item">
-                <img src="screenshots/collection.png" alt="Collection" class="screenshot-img" loading="lazy">
+                <img data-src-base="collection" alt="Collection" class="screenshot-img lang-aware" loading="lazy">
                 <div class="screenshot-label" data-i18n="ss3.label">Collection — Niveaux & variantes</div>
             </div>
             <div class="screenshot-item">
-                <img src="screenshots/party.png" alt="Party" class="screenshot-img" loading="lazy">
+                <img data-src-base="party" alt="Party" class="screenshot-img lang-aware" loading="lazy">
                 <div class="screenshot-label" data-i18n="ss4.label">Party — Salon & match en cours</div>
             </div>
             <div class="screenshot-item">
-                <img src="screenshots/contracts.png" alt="Contrats" class="screenshot-img" loading="lazy">
+                <img data-src-base="contracts" alt="Contrats" class="screenshot-img lang-aware" loading="lazy">
                 <div class="screenshot-label" data-i18n="ss5.label">Contrats & Battlepass</div>
             </div>
         </div>
@@ -375,6 +375,26 @@
     window.addEventListener('scroll', () => {
         navbar.classList.toggle('scrolled', window.scrollY > 40);
     }, { passive: true });
+
+    // Update screenshots based on language
+    function updateScreenshots(lang) {
+        document.querySelectorAll('.lang-aware').forEach(img => {
+            const basename = img.getAttribute('data-src-base');
+            const suffix = lang === 'en' ? 'EN' : '';
+            img.src = `screenshots/${basename}${suffix}.png`;
+        });
+    }
+
+    // Trigger screenshot update on language change
+    document.querySelectorAll('.lang-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            const lang = btn.getAttribute('data-lang');
+            updateScreenshots(lang);
+        });
+    });
+
+    // Initial load with current language (default: fr)
+    updateScreenshots('fr');
 
     // Lightbox
     const lightbox    = document.getElementById('lightbox');
