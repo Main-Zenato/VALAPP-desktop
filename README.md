@@ -57,7 +57,7 @@
 
 - Party members with current rank and RR
 - Enemy agent selection as the game reveals them
-- Your starting side (Attack / Defense)
+- Live Attack / Defense sides (updates at halftime)
 - Map name and splash art
 - Score updates
 
@@ -81,6 +81,7 @@
 - Full skin preview: levels, chromas, videos
 - Accessory store (sprays, buddies, cards, titles with KC prices)
 - Live wallet: VP, RP, Kernel Credits
+- **Share** your Store, Night Market, or Accessories as a branded image, copied to your clipboard — ready to paste in Discord
 
 ### Match History & Career Stats
 **Detailed breakdown of every competitive match.**
@@ -124,6 +125,21 @@
 - Battle Pass tier progression
 - Next reward preview
 
+### Premier
+**Follow your Premier team and the season schedule.**
+
+- Your team: name, tag, members, and conference
+- Eligibility status
+- Season schedule by conference — upcoming match nights and tournaments, with local times and countdowns
+
+### Crosshair Generator
+**Design a crosshair and export it in one click.**
+
+- Live preview that updates as you tweak color, outlines, center dot, inner & outer lines
+- Primary, ADS, and Sniper profiles
+- Ready-made models to start from
+- Import any VALORANT crosshair code, or copy yours to share
+
 ### Server Status Monitor
 **Check Riot infrastructure in real-time.**
 
@@ -141,7 +157,7 @@
 - Signed releases with **minisign** verification
 
 ### Customization
-- **4 accent themes**: Valorant red, Blue, Green, Purple
+- **10+ accent themes**: Valorant, Blue, Green, Purple, Jett, Omen, Phoenix, Sage, Jinx, Vi
 - **UI language**: English or French
 - **Resource language**: 11 regions (en-US, fr-FR, de-DE, es-ES, es-MX, pt-BR, ru-RU, tr-TR, ja-JP, ko-KR, zh-CN)
 - **Streamer Mode**: hides account names and tags from the UI for privacy on stream
