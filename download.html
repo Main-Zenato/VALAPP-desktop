@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Télécharger VALAPP Desktop / Download VALAPP Desktop</title>
     <meta name="description" content="Téléchargez VALAPP Desktop — l'application gratuite pour VALORANT. Windows 10/11 uniquement.">
+    <meta name="theme-color" content="#FF4655">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Download VALAPP Desktop">
+    <meta property="og:description" content="The free app for VALORANT — Windows 10/11.">
+    <meta property="og:image" content="https://main-zenato.github.io/VALAPP-desktop/screenshots/store.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap">
     <link rel="stylesheet" href="style.css">
@@ -164,15 +170,17 @@
 
             // Trouver le setup .exe (pas le .sig ni le .json)
             const asset = data.assets?.find(a => a.name.endsWith('.exe') && !a.name.endsWith('.sig'));
+            let sizeLabel = '';
             if (asset) {
                 btn.href = asset.browser_download_url;
                 btn.removeAttribute('target');
                 btn.removeAttribute('rel');
+                if (asset.size) sizeLabel = ` · ${(asset.size / 1048576).toFixed(1)} Mo`;
             }
 
-            // Afficher la version réelle
+            // Afficher la version réelle (+ taille du fichier)
             if (data.tag_name && versionDisplay) {
-                versionDisplay.textContent = data.tag_name;
+                versionDisplay.textContent = data.tag_name + sizeLabel;
             }
         } catch {
             btn.href = FALLBACK;

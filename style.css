@@ -295,13 +295,24 @@ img { display: block; max-width: 100%; }
 
 .hero-text h1 {
     font-family: 'Rajdhani', sans-serif;
-    font-size: clamp(2.6rem, 6vw, 4.2rem);
+    font-size: clamp(2.1rem, 4.4vw, 3.2rem);
     font-weight: 700;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.01em;
     text-transform: uppercase;
-    line-height: 1.05;
+    line-height: 1.1;
     color: var(--white);
     margin-bottom: 1.25rem;
+    max-width: 16ch;
+}
+.hero-text h1 .hero-sub {
+    display: block;
+    margin-top: 0.5rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.42em;
+    font-weight: 500;
+    letter-spacing: 0;
+    text-transform: none;
+    color: var(--muted-light);
 }
 
 .hero-desc {
@@ -1046,4 +1057,60 @@ img { display: block; max-width: 100%; }
     .dl-footer-links { flex-direction: column; align-items: stretch; }
     .dl-footer-links .btn { justify-content: center; }
     .footer-nav { flex-direction: column; gap: 1.5rem; }
+}
+
+/* ===== HERO SHOT (real screenshot) ===== */
+.hero-shot {
+    width: 100%;
+    max-width: 560px;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    box-shadow: 0 24px 80px rgba(0,0,0,0.6), 0 0 0 1px rgba(255,255,255,0.04);
+}
+.hero-shot-img { display: block; width: 100%; height: auto; }
+
+/* ===== WHY / STORY ===== */
+.why {
+    padding: 5rem 2rem;
+    border-top: 1px solid var(--border-subtle);
+    background: var(--bg-alt);
+}
+.why-inner { max-width: 760px; margin: 0 auto; text-align: center; }
+.why-badge {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--red);
+    background: rgba(255,70,85,0.1);
+    border: 1px solid rgba(255,70,85,0.25);
+    padding: 0.3rem 0.85rem;
+    border-radius: 20px;
+    margin-bottom: 1.25rem;
+}
+.why-inner h2 {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: clamp(1.8rem, 4vw, 2.6rem);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    color: var(--white);
+    margin-bottom: 1.25rem;
+}
+.why-inner p {
+    font-size: 1.05rem;
+    line-height: 1.75;
+    color: var(--muted-light);
+    margin-bottom: 1.1rem;
+}
+.why-links { display: flex; justify-content: center; gap: 0.75rem; margin-top: 1.75rem; flex-wrap: wrap; }
+
+/* ===== SCROLL REVEAL ===== */
+.reveal { opacity: 0; transform: translateY(18px); transition: opacity 0.6s ease, transform 0.6s ease; }
+.reveal.in { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: reduce) {
+    .reveal { opacity: 1 !important; transform: none !important; transition: none !important; }
 }

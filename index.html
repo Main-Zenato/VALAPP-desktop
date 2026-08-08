@@ -4,10 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VALAPP Desktop — L'application Valorant</title>
-    <meta name="description" content="VALAPP Desktop est une application gratuite pour VALORANT — boutique quotidienne, profil & stats, collection de skins, party, multi-comptes sécurisé.">
-    <meta property="og:title" content="VALAPP Desktop — The Valorant App">
-    <meta property="og:description" content="Daily shop, profile, skin collection, multi-account — all in one, free and local.">
+    <meta name="description" content="VALAPP Desktop est une application gratuite pour VALORANT — boutique quotidienne, profil & stats, collection de skins, presets de loadout par map, scout de lobby, party, multi-comptes sécurisé.">
+    <meta name="theme-color" content="#FF4655">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="canonical" href="https://main-zenato.github.io/VALAPP-desktop/">
+    <!-- Open Graph -->
     <meta property="og:type" content="website">
+    <meta property="og:site_name" content="VALAPP Desktop">
+    <meta property="og:url" content="https://main-zenato.github.io/VALAPP-desktop/">
+    <meta property="og:title" content="VALAPP Desktop — The Valorant App">
+    <meta property="og:description" content="Daily shop, collection, loadout presets by map, lobby scout, live match, multi-account — all in one, free and 100% local.">
+    <meta property="og:image" content="https://main-zenato.github.io/VALAPP-desktop/screenshots/store.png">
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="VALAPP Desktop — The Valorant App">
+    <meta name="twitter:description" content="Daily shop, collection, loadout presets by map, lobby scout, live match — free and 100% local.">
+    <meta name="twitter:image" content="https://main-zenato.github.io/VALAPP-desktop/screenshots/store.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap">
     <link rel="stylesheet" href="style.css">
@@ -43,8 +55,8 @@
                 <span class="badge-dot"></span>
                 <span data-i18n="hero.badge">Windows 10 / 11</span>
             </div>
-            <h1 data-i18n-html="hero.h1">L'application<br><span class="accent">Valorant</span><br>qu'il vous faut</h1>
-            <p class="hero-desc" data-i18n-html="hero.desc">Boutique quotidienne, profil & stats, collection de skins, party en live — tout en un, gratuit, rapide, et stocké <strong>uniquement sur votre PC</strong>.</p>
+            <h1 data-i18n-html="hero.h1">Le compagnon <span class="accent">Valorant</span> que je voulais.<span class="hero-sub">Alors je l'ai codé.</span></h1>
+            <p class="hero-desc" data-i18n-html="hero.desc">Boutique, collection, presets de loadout, lobby en direct — au même endroit, hors du jeu. Gratuit, et vos données restent <strong>uniquement sur votre PC</strong>.</p>
             <div class="hero-actions">
                 <a href="download.html" class="btn btn-primary btn-lg">
                     <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
@@ -59,7 +71,7 @@
             </div>
         </div>
         <div class="hero-visual">
-            <div class="app-mockup">
+            <div class="hero-shot">
                 <div class="mockup-titlebar">
                     <div class="mockup-controls">
                         <span class="mc red"></span>
@@ -68,49 +80,7 @@
                     </div>
                     <span class="mockup-title">VALAPP Desktop</span>
                 </div>
-                <div class="mockup-body">
-                    <div class="mockup-sidebar">
-                        <div class="mockup-avatar"></div>
-                        <div class="mockup-nav-item active"></div>
-                        <div class="mockup-nav-item"></div>
-                        <div class="mockup-nav-item"></div>
-                        <div class="mockup-nav-item"></div>
-                        <div class="mockup-nav-item"></div>
-                        <div class="mockup-nav-item"></div>
-                    </div>
-                    <div class="mockup-content">
-                        <div class="mockup-header-bar"></div>
-                        <div class="mockup-skins-row">
-                            <div class="mockup-skin-card">
-                                <div class="mockup-skin-img"></div>
-                                <div class="mockup-skin-name"></div>
-                                <div class="mockup-skin-price"></div>
-                            </div>
-                            <div class="mockup-skin-card">
-                                <div class="mockup-skin-img accent"></div>
-                                <div class="mockup-skin-name"></div>
-                                <div class="mockup-skin-price"></div>
-                            </div>
-                            <div class="mockup-skin-card">
-                                <div class="mockup-skin-img"></div>
-                                <div class="mockup-skin-name"></div>
-                                <div class="mockup-skin-price"></div>
-                            </div>
-                            <div class="mockup-skin-card">
-                                <div class="mockup-skin-img"></div>
-                                <div class="mockup-skin-name"></div>
-                                <div class="mockup-skin-price"></div>
-                            </div>
-                        </div>
-                        <div class="mockup-bundle-card">
-                            <div class="mockup-bundle-img"></div>
-                            <div class="mockup-bundle-info">
-                                <div class="mockup-line wide"></div>
-                                <div class="mockup-line medium"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <img data-src-base="store" alt="VALAPP Desktop — boutique quotidienne" class="hero-shot-img lang-aware" loading="eager">
             </div>
         </div>
     </div>
@@ -120,8 +90,8 @@
 <section class="features" id="features">
     <div class="section-inner">
         <div class="section-header">
-            <h2 data-i18n="features.title">Tout ce dont vous avez besoin</h2>
-            <p data-i18n="features.subtitle">Toutes les informations importantes de Valorant, accessibles sans lancer le jeu.</p>
+            <h2 data-i18n="features.title">Ce que fait VALAPP</h2>
+            <p data-i18n="features.subtitle">Toutes les infos importantes de Valorant, accessibles sans lancer le jeu.</p>
         </div>
         <div class="features-grid">
             <div class="feature-card">
@@ -180,6 +150,75 @@
                 <h3 data-i18n="feat8.title">Léger & rapide</h3>
                 <p data-i18n="feat8.desc">Construit avec Rust + Tauri. Binaire natif Windows, démarrage quasi instantané, empreinte mémoire minimale.</p>
             </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+                </div>
+                <h3 data-i18n="feat9.title">Presets de loadout par map</h3>
+                <p data-i18n="feat9.desc">Enregistrez des configs complètes (armes, sprays, carte, titre), assignez-les à des maps, et appliquez-les en un clic — proposé directement en agent select.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+                </div>
+                <h3 data-i18n="feat10.title">Scout de lobby</h3>
+                <p data-i18n="feat10.desc">Cliquez un joueur en party ou en match pour voir sa forme classée récente — trajectoire de rang et RR gagné/perdu sur ses dernières parties.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="22" y1="12" x2="18" y2="12"/><line x1="6" y1="12" x2="2" y2="12"/><line x1="12" y1="6" x2="12" y2="2"/><line x1="12" y1="22" x2="12" y2="18"/></svg>
+                </div>
+                <h3 data-i18n="feat11.title">Générateur de viseur</h3>
+                <p data-i18n="feat11.desc">Créez un viseur avec aperçu en direct, profils Primaire / ADS / Sniper, modèles prêts à l'emploi, et import/export du code VALORANT.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/></svg>
+                </div>
+                <h3 data-i18n="feat12.title">Premier</h3>
+                <p data-i18n="feat12.desc">Suivez votre équipe Premier et le calendrier de la saison — soirées de match et tournois à venir, avec heures locales et éligibilité.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+                </div>
+                <h3 data-i18n="feat13.title">Partage Discord</h3>
+                <p data-i18n="feat13.desc">Partagez votre boutique, night market ou accessoires en image aux couleurs de votre thème — copiée dans le presse-papier, prête à coller.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="8" rx="2"/><rect x="2" y="14" width="20" height="8" rx="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></svg>
+                </div>
+                <h3 data-i18n="feat14.title">Statut des serveurs</h3>
+                <p data-i18n="feat14.desc">Santé des services Riot en temps réel, incidents et maintenances en cours détaillés (dans votre langue), et disponibilité par région.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><circle cx="13.5" cy="6.5" r=".8"/><circle cx="17.5" cy="10.5" r=".8"/><circle cx="8.5" cy="7.5" r=".8"/><circle cx="6.5" cy="12.5" r=".8"/><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.9 0 1.6-.7 1.6-1.6 0-.4-.2-.8-.4-1.1-.3-.3-.4-.7-.4-1.1 0-.9.7-1.7 1.7-1.7H16c3 0 5.5-2.5 5.5-5.5C22 6 17.5 2 12 2z"/></svg>
+                </div>
+                <h3 data-i18n="feat15.title">Thèmes & personnalisation</h3>
+                <p data-i18n="feat15.desc">10+ thèmes d'accent, interface FR/EN, langue des ressources sur 11 régions, mode streamer, et mises à jour automatiques signées.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== WHY / STORY ===== -->
+<section class="why" id="why">
+    <div class="section-inner why-inner">
+        <div class="why-badge" data-i18n="why.badge">Le projet</div>
+        <h2 data-i18n="why.title">Pourquoi ce projet ?</h2>
+        <p data-i18n="why.p1">J'en avais marre de lancer le client Riot juste pour voir ma boutique, changer un skin ou checker le rang d'un joueur en lobby. Alors j'ai construit l'app que je voulais utiliser.</p>
+        <p data-i18n="why.p2">VALAPP est un projet indépendant, développé par un joueur — pas une entreprise. Pas de pub, pas de tracking, pas de revente de données. Juste un outil rapide qui fait bien son travail, et que j'améliore au fil de mes propres besoins et de vos retours.</p>
+        <div class="why-links">
+            <a href="https://github.com/Main-Zenato/VALAPP-desktop" target="_blank" rel="noopener" class="btn btn-ghost">
+                <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12"/></svg>
+                <span>GitHub</span>
+            </a>
+            <a href="https://discord.gg/6BZekAEqDD" target="_blank" rel="noopener" class="btn btn-ghost">
+                <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M20.317 4.369a19.79 19.79 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.211.375-.444.865-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.6 12.6 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.74 19.74 0 0 0 3.677 4.369a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.1 13.1 0 0 1-1.872-.892.077.077 0 0 1-.008-.128c.126-.094.252-.192.372-.291a.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.061 0a.074.074 0 0 1 .078.009c.12.099.246.198.373.292a.077.077 0 0 1-.006.127 12.3 12.3 0 0 1-1.873.891.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.84 19.84 0 0 0 6.002-3.03.077.077 0 0 0 .032-.055c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.028zM8.02 15.331c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg>
+                <span>Discord</span>
+            </a>
         </div>
     </div>
 </section>
@@ -189,7 +228,7 @@
     <div class="section-inner">
         <div class="section-header">
             <h2 data-i18n="screenshots.title">Aperçu de l'application</h2>
-            <p data-i18n="screenshots.subtitle">Interface sombre, 4 thèmes d'accent au choix. Entièrement en français et en anglais.</p>
+            <p data-i18n="screenshots.subtitle">Interface sombre, 10+ thèmes d'accent au choix. Entièrement en français et en anglais.</p>
         </div>
         <div class="screenshots-grid">
             <div class="screenshot-item featured">
@@ -211,6 +250,18 @@
             <div class="screenshot-item">
                 <img data-src-base="contracts" alt="Contrats" class="screenshot-img lang-aware" loading="lazy">
                 <div class="screenshot-label" data-i18n="ss5.label">Contrats & Battlepass</div>
+            </div>
+            <div class="screenshot-item">
+                <img data-src-base="presets" alt="Presets" class="screenshot-img lang-aware" loading="lazy">
+                <div class="screenshot-label" data-i18n="ss6.label">Presets de loadout par map</div>
+            </div>
+            <div class="screenshot-item">
+                <img data-src-base="premier" alt="Premier" class="screenshot-img lang-aware" loading="lazy">
+                <div class="screenshot-label" data-i18n="ss7.label">Premier — Équipe & calendrier</div>
+            </div>
+            <div class="screenshot-item">
+                <img data-src-base="crosshair" alt="Crosshair" class="screenshot-img lang-aware" loading="lazy">
+                <div class="screenshot-label" data-i18n="ss8.label">Générateur de viseur</div>
             </div>
         </div>
     </div>
@@ -423,6 +474,19 @@
         if (e.key === 'Escape') closeLightbox();
     });
     document.getElementById('lightbox-close').addEventListener('click', closeLightbox);
+
+    // Apparition douce au scroll
+    (function () {
+        const els = document.querySelectorAll('.feature-card, .screenshot-item, .section-header, .why-inner, .safe-inner, .faq-item, .cta-inner');
+        if (!('IntersectionObserver' in window)) return;
+        els.forEach(e => e.classList.add('reveal'));
+        const io = new IntersectionObserver((entries, obs) => {
+            entries.forEach(en => {
+                if (en.isIntersecting) { en.target.classList.add('in'); obs.unobserve(en.target); }
+            });
+        }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
+        els.forEach(e => io.observe(e));
+    })();
 </script>
 </body>
 </html>
