@@ -6,11 +6,11 @@
 ![Built with Tauri](https://img.shields.io/badge/Tauri-2-FFC131?logo=tauri&logoColor=white)
 [![Discord](https://img.shields.io/badge/Discord-Join%20Server-5865F2?logo=discord&logoColor=white)](https://discord.gg/6BZekAEqDD)
 
-## The fastest way to manage your VALORANT inventory.
+## The Valorant companion I wanted — so I built it.
 
-**VALAPP** is a **lightweight, secure, and ultra-fast desktop companion for VALORANT**. Get instant access to your skins, loadout, match history, and party status — without the bloat of the official client.
+**VALAPP** is a desktop companion for VALORANT. Check your shop, manage your collection, apply **loadout presets by map**, scout your lobby, and follow your matches — all outside the game, without launching the client.
 
-**100% local. No telemetry. No tracking. Just works.**
+**Made by a player.** 100% local — no telemetry, no tracking, no data resale.
 
 ---
 
@@ -39,6 +39,15 @@
 
 ### Contracts & Battle Pass
 ![Contracts](https://raw.githubusercontent.com/Main-Zenato/VALAPP-desktop/main/.github/assets/contrat.png)
+
+### Loadout Presets by Map
+![Loadout Presets](https://raw.githubusercontent.com/Main-Zenato/VALAPP-desktop/main/.github/assets/presets.png)
+
+### Premier
+![Premier](https://raw.githubusercontent.com/Main-Zenato/VALAPP-desktop/main/.github/assets/premier.png)
+
+### Crosshair Generator
+![Crosshair Generator](https://raw.githubusercontent.com/Main-Zenato/VALAPP-desktop/main/.github/assets/crosshair.png)
 
 ---
 
@@ -245,6 +254,8 @@ Built on proven, industry-standard technologies:
 ---
 
 ## About This Project
+
+I got tired of launching the Riot client just to check my shop, swap a skin, or look up a player's rank in the lobby — so I built the app I wanted to use. VALAPP is an independent project, made by a player, and I keep improving it around my own needs and community feedback. No ads, no tracking, no data resale.
 
 VALAPP Desktop is an **independent third-party companion** — not affiliated with or endorsed by Riot Games.
 
