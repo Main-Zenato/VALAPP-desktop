@@ -73,6 +73,15 @@
 | **Titles** | Set active title with one click |
 | **Equipped Status** | Green checkmark on all currently active items |
 
+### Loadout Presets — Per-Map Configs
+**Save full loadouts and apply them in one click.**
+
+- Build a preset from your **weapons** (skin + chroma), **sprays**, **player card**, and **title**
+- Include only the categories you want — **ignored categories are left untouched** in-game
+- Assign each preset to **one or more maps**
+- In **Agent Select**, VALAPP suggests the matching preset — apply it instantly (pick from a list when several match)
+- Everything runs through the standard loadout flow — one clean write, no game files touched
+
 ### Daily Store & Bundles
 **Track your shop without launching the official client.**
 
@@ -110,12 +119,13 @@
 - Click any friend to inspect stats
 - Send party invitations directly through XMPP
 
-### Player Inspector
-**Instantly check any player's stats — from party, friends, or match history.**
+### Player Inspector — Lobby Scout
+**Instantly check any player's recent form — from party, live match, friends, or match history.**
 
-- Current rank and RR
-- Peak rank this season
-- Account level
+- Current rank and RR, peak rank this season, account level
+- **Recent ranked form**: rank trajectory (where they started → where they are now) with the RR gained or lost on each of their recent games
+- **Previous-act notice** when a player is unranked this act — so old stats are never mistaken for their current standing
+- Loads one player at a time, on click — lightweight and rate-limit friendly
 
 ### Contracts & Battle Pass
 **Never miss a mission or season reward.**
