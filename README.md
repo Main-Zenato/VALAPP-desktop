@@ -36,6 +36,7 @@
 **Scouting & stats**
 - **Advanced scoreboard stats** — ADR, first kills/deaths, plants/defuses, and multikill badges (2K / 3K / 4K / Ace)
 - **Per-player platform tags** (PC / PS5 / Xbox) — console ranks are clearly labeled and never mixed with PC ranks
+- **Premade detection** — spot which players queued together as a group, on both teams, right from the live match
 - **Smart rank loading** — competitive scoreboards appear instantly, with any missing ranks filling in progressively; outside competitive, ranks stay hidden and load only on demand (a **Reveal** button, or automatically when you open a player's inspector) — keeping requests well under Riot's limits
 
 **New tabs**
@@ -95,6 +96,7 @@
 **See your team composition in real-time.**
 
 - Party members with current rank and RR
+- **Premade detection** — see which players queued together as a group, on both your team and the enemy's
 - Enemy agent selection as the game reveals them
 - Live Attack / Defense sides (updates at halftime)
 - Map name and splash art
