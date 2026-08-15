@@ -16,6 +16,7 @@
 
 ## Table of Contents
 
+- [What's New in 5.4](#whats-new-in-54)
 - [Screenshots](#screenshots)
 - [Core Features](#core-features)
 - [Privacy & Security](#privacy--security)
@@ -23,6 +24,35 @@
 - [Technical Stack](#technical-stack)
 - [About This Project](#about-this-project)
 - [Legal](#legal)
+
+---
+
+## What's New in 5.4
+
+**Friends & chat**
+- Full in-app **chat** with friends — send and receive messages in real time over Riot XMPP, with persistent history and unread badges
+- **Roster management** — add or remove friends and handle incoming/outgoing friend requests
+
+**Scouting & stats**
+- **Advanced scoreboard stats** — ADR, first kills/deaths, plants/defuses, and multikill badges (2K / 3K / 4K / Ace)
+- **Per-player platform tags** (PC / PS5 / Xbox) — console ranks are clearly labeled and never mixed with PC ranks
+- **Smart rank loading** — competitive scoreboards appear instantly, with any missing ranks filling in progressively; outside competitive, ranks stay hidden and load only on demand (a **Reveal** button, or automatically when you open a player's inspector) — keeping requests well under Riot's limits
+
+**New tabs**
+- **Purchase History** — your real payment history plus every VP / RP / Kingdom Credits transaction
+- **Season Goal** — set a target rank and track your RR progression over time (chart + ranked stats)
+- **Game Info** — Agents (abilities), Maps (annotatable 2D layouts), and Weapons (stats & damage)
+- **Lineups & Tips** — community clips for the current map, in-app
+- **World Leaderboard** — regional competitive ranking
+
+**Contracts & economy**
+- Account **XP & level** card, **daily XP checkpoints**, and XP + Kingdom Credits earned per match
+- Browse **previous battle passes**
+
+**Quality of life**
+- **Default account** (star) loaded first at startup
+- **Account health** card (status & sanctions) in Settings
+- Collection **favorites**, clear-match-cache reset, and many fixes
 
 ---
 
@@ -37,7 +67,7 @@
 ### Match History & Career Stats
 ![Profile](https://raw.githubusercontent.com/Main-Zenato/VALAPP-desktop/main/.github/assets/profile.png)
 
-### Contracts & Battle Pass
+### Contracts & XP
 ![Contracts](https://raw.githubusercontent.com/Main-Zenato/VALAPP-desktop/main/.github/assets/contrat.png)
 
 ### Loadout Presets by Map
@@ -76,6 +106,7 @@
 | Category | Features |
 |----------|----------|
 | **Skins** | Group by weapon, preview all levels & chromas, watch demo videos, equip any variant |
+| **Favorites** | Star your go-to skins into a pinned Favorites strip for one-click access |
 | **Buddies** | Equip per weapon, integrated in skin detail panel |
 | **Sprays** | Full 6-slot spray wheel with animation previews |
 | **Player Cards** | Wide and standard art formats, equip globally |
@@ -105,26 +136,30 @@
 **Detailed breakdown of every competitive match.**
 
 - Full game stats: K/D/A, ACS, HS%, W/L, RR delta
-- Click any match to view detailed scoreboard
-- Both teams ranked by performance
-- Agent icons, map info, player ranks
+- Click any match for a detailed scoreboard with **advanced stats** — ADR, first kills / deaths, plants / defuses, and **multikill badges** (2K / 3K / 4K / Ace)
+- **Platform tags** per player (PC / PS5 / Xbox) so console ranks are never mistaken for PC ranks
+- Both teams ranked by performance, with agent icons, map info, and player ranks
 - Recent stats summary: win rate, K/D ratio, headshot %
+- **World Leaderboard** — regional competitive ranking, with your own position highlighted
 
 ### Multi-Account Manager
 **Switch between Riot accounts instantly.**
 
 - All accounts stored locally with encrypted sessions (Windows DPAPI)
 - One-click account switching in the sidebar
+- **Default account** (star) loaded first at startup — falls back gracefully if its session has expired
 - Silent refresh on startup — no login screen for valid sessions
 - Add, remove, or switch without relaunching
 - Each account keeps its own stats and collections
 
 ### Friends & Party Network
-**Real-time presence powered by Riot XMPP protocol.**
+**Real-time presence and chat powered by Riot XMPP protocol.**
 
 - Online / In Game / Away / Offline status
 - Queue type and current map for friends in-game
 - Rank icons and current RR
+- **In-app chat** — send and receive messages in real time, with persistent history and unread badges
+- **Roster management** — add or remove friends, and accept or decline incoming/outgoing friend requests
 - Click any friend to inspect stats
 - Send party invitations directly through XMPP
 
@@ -132,24 +167,56 @@
 **Instantly check any player's recent form — from party, live match, friends, or match history.**
 
 - Current rank and RR, peak rank this season, account level
-- **Recent ranked form**: rank trajectory (where they started → where they are now) with the RR gained or lost on each of their recent games
+- **Recent ranked form**: rank trajectory (where they started → where they are now) with the RR gained or lost on each of their recent games — including a clear marker for two-tier jumps
+- **Platform-aware** — a player's ranks are labeled by platform (PC / console), never mixed
 - **Previous-act notice** when a player is unranked this act — so old stats are never mistaken for their current standing
 - Loads one player at a time, on click — lightweight and rate-limit friendly
 
-### Contracts & Battle Pass
-**Never miss a mission or season reward.**
+### Contracts & XP
+**Never miss a mission or season reward — and see exactly what each match earns you.**
 
 - Daily and weekly mission progress with countdowns
 - Future missions grouped by week (never miss an activation)
-- Battle Pass tier progression
-- Next reward preview
+- Battle Pass tier progression and next-reward preview
+- Browse **previous battle passes**
+- **Account XP & level** card with progression, plus **daily XP checkpoints**
+- **Per-match breakdown** — XP and Kingdom Credits earned, including the first-win-of-the-day bonus
+
+### Purchase History
+**Every payment and in-game transaction, in one place.**
+
+- Real payment history (your actual purchases)
+- VP / RP / Kingdom Credits transactions
+- Clear timeline of what you spent and when
+
+### Season Goal
+**Set a target rank and watch yourself climb toward it.**
+
+- Pick a target rank for the act
+- RR progression chart over time
+- Ranked stats and a simple estimate of what's left
+- Tracking starts the moment you set a goal — no noise before that
 
 ### Premier
-**Follow your Premier team and the season schedule.**
+**Follow your Premier team, its ranking, and the season schedule.**
 
-- Your team: name, tag, members, and conference
+- Your team: name, tag, **full roster composition**, and conference
+- **Team ranking** and **match history**
 - Eligibility status
 - Season schedule by conference — upcoming match nights and tournaments, with local times and countdowns
+
+### Game Info
+**Agents, Maps, and Weapons — right inside the app.**
+
+- **Agents** — role, abilities, and descriptions
+- **Maps** — annotatable 2D layouts (draw callouts and setups)
+- **Weapons** — stats and damage breakdown
+
+### Lineups & Tips
+**Community clips for the map you're about to play.**
+
+- Curated lineup and tip clips surfaced in-app
+- Watch without leaving VALAPP
 
 ### Crosshair Generator
 **Design a crosshair and export it in one click.**
@@ -175,12 +242,18 @@
 - Progress bar during installation
 - Signed releases with **minisign** verification
 
+### Account Health
+**Know your account's standing at a glance.**
+
+- Status and sanctions card in Settings
+- Surfaces restrictions or penalties tied to the account
+
 ### Customization
 - **10+ accent themes**: Valorant, Blue, Green, Purple, Jett, Omen, Phoenix, Sage, Jinx, Vi
 - **UI language**: English or French
 - **Resource language**: 11 regions (en-US, fr-FR, de-DE, es-ES, es-MX, pt-BR, ru-RU, tr-TR, ja-JP, ko-KR, zh-CN)
 - **Streamer Mode**: hides account names and tags from the UI for privacy on stream
-- **Danger zone**: Clear all accounts or collection cache
+- **Danger zone**: Clear all accounts, or clear the collection / match cache for a clean reset
 
 ---
 
@@ -274,7 +347,7 @@ VALAPP Desktop is an **independent third-party companion** — not affiliated wi
 
 ## Legal
 
-© 2025 Zenato — All rights reserved.
+© 2025–2026 Zenato — All rights reserved.
 
 VALAPP Desktop is proprietary freeware. The source code is not public.
 Redistribution of any binaries without explicit written permission is prohibited.
