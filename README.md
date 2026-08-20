@@ -153,6 +153,7 @@
 - Silent refresh on startup — no login screen for valid sessions
 - Add, remove, or switch without relaunching
 - Each account keeps its own stats and collections
+- **Name history** — your own past Riot IDs are recorded over time and shown on your profile
 
 ### Friends & Party Network
 **Real-time presence and chat powered by Riot XMPP protocol.**
@@ -227,6 +228,15 @@
 - Primary, ADS, and Sniper profiles
 - Ready-made models to start from
 - Import any VALORANT crosshair code, or copy yours to share
+
+### Game Settings Snapshots
+**Save your in-game settings and re-apply them anytime — even on another account.**
+
+- Capture your VALORANT settings: crosshair, sensitivity, keybinds, audio, minimap, HUD…
+- Save multiple named snapshots
+- Re-apply a snapshot to the active account in one click — settings are copied faithfully across accounts
+- Recapture before applying = a built-in backup
+- Works with the game closed (video/graphics options are stored locally on the PC and aren't affected)
 
 ### Server Status Monitor
 **Check Riot infrastructure in real-time.**
