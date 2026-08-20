@@ -65,6 +65,10 @@ const TRANSLATIONS = {
     'feat19.desc':  'Des clips communautaires de lineups et d\'astuces pour la carte que vous allez jouer, sans quitter VALAPP.',
     'feat20.title': 'Santé du compte',
     'feat20.desc':  'Une carte statut & sanctions dans les Paramètres : connaissez l\'état de votre compte d\'un coup d\'œil.',
+    'feat21.title': 'Snapshots de paramètres',
+    'feat21.desc':  'Capturez vos réglages de jeu (viseur, sensibilité, keybinds, audio, minimap…) et réappliquez-les quand vous voulez, même sur un autre compte.',
+    'feat22.title': 'Historique des pseudos',
+    'feat22.desc':  'Vos anciens Riot ID sont enregistrés au fil du temps et affichés sur votre profil.',
 
     // Screenshots
     'screenshots.title':    'Aperçu de l\'application',
@@ -222,6 +226,10 @@ const TRANSLATIONS = {
     'feat19.desc':  'Community lineup and tip clips for the map you\'re about to play, without leaving VALAPP.',
     'feat20.title': 'Account health',
     'feat20.desc':  'A status & sanctions card in Settings: know your account\'s standing at a glance.',
+    'feat21.title': 'Settings snapshots',
+    'feat21.desc':  'Capture your in-game settings (crosshair, sensitivity, keybinds, audio, minimap…) and re-apply them anytime, even on another account.',
+    'feat22.title': 'Name history',
+    'feat22.desc':  'Your past Riot IDs are recorded over time and shown on your profile.',
 
     // Screenshots
     'screenshots.title':    'App Preview',
