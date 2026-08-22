@@ -16,7 +16,7 @@
 
 ## Table of Contents
 
-- [What's New in 5.4](#whats-new-in-54)
+- [What's New in 5.5](#whats-new-in-55)
 - [Screenshots](#screenshots)
 - [Core Features](#core-features)
 - [Privacy & Security](#privacy--security)
@@ -27,33 +27,37 @@
 
 ---
 
-## What's New in 5.4
+## What's New in 5.5
 
-**Friends & chat**
-- Full in-app **chat** with friends — send and receive messages in real time over Riot XMPP, with persistent history and unread badges
-- **Roster management** — add or remove friends and handle incoming/outgoing friend requests
+**Console players**
+- **Console rank & match history** — a player's console rank, peak and recent console games, on your own profile and on anyone you inspect. PC and console are two separate ranked queues, and the app now reads both instead of showing PC data only.
 
-**Scouting & stats**
-- **Advanced scoreboard stats** — ADR, first kills/deaths, plants/defuses, and multikill badges (2K / 3K / 4K / Ace)
-- **Per-player platform tags** (PC / PS5 / Xbox) — console ranks are clearly labeled and never mixed with PC ranks
-- **Premade detection** — spot which players queued together as a group, on both teams, right from the live match
-- **Smart rank loading** — competitive scoreboards appear instantly, with any missing ranks filling in progressively; outside competitive, ranks stay hidden and load only on demand (a **Reveal** button, or automatically when you open a player's inspector) — keeping requests well under Riot's limits
+**Match analysis**
+- **Performance tab** — score per round charted against the lobby average, weapons and abilities used, site preference and conversion
+- **Economy tab** — spending, loadout value, damage per 1000 credits and credits left on death, each compared with the rest of the lobby
+- **Duels matrix** — a grid of who beats who, both teams at a glance, alongside the existing per-duel breakdown
+- **Pick the analysed player** — Performance and Economy work on anyone in the match, not just you
+- **Attack / defense filter**
+- Abilities are **named and illustrated** instead of a generic "ability"
 
-**New tabs**
-- **Purchase History** — your real payment history plus every VP / RP / Kingdom Credits transaction
-- **Season Goal** — set a target rank and track your RR progression over time (chart + ranked stats)
-- **Game Info** — Agents (abilities), Maps (annotatable 2D layouts), and Weapons (stats & damage)
-- **Lineups & Tips** — community clips for the current map, in-app
-- **World Leaderboard** — regional competitive ranking
-
-**Contracts & economy**
-- Account **XP & level** card, **daily XP checkpoints**, and XP + Kingdom Credits earned per match
-- Browse **previous battle passes**
+**Store**
+- Weapons are **tinted with their rarity tier** — Deluxe, Select, Premium, Exclusive, Ultra — across the daily store, night market, bundles and shared images
+- Bundle contents open in a **wider panel**
+- Flex items finally show up in bundle contents
 
 **Quality of life**
-- **Default account** (star) loaded first at startup
-- **Account health** card (status & sanctions) in Settings
-- Collection **favorites**, clear-match-cache reset, and many fixes
+- The **full profile** replaces the side drawer everywhere — one and the same view from the profile, the party and the friends list
+- A **What's new** button in Settings opens the release notes, in your language
+
+**Fixes**
+- Misread scores no longer show up as "Draw 0 – 0"
+- The skin preview no longer closes while you resize it
+- Stray scrollbars removed
+
+**Under the hood**
+- Match loading, rank display and party detection are noticeably faster
+
+> Older versions are listed on the [releases page](https://github.com/Main-Zenato/VALAPP-desktop/releases), and in-app under **Settings → What's new**.
 
 ---
 
@@ -127,11 +131,12 @@
 ### Daily Store & Bundles
 **Track your shop without launching the official client.**
 
-- Daily weapon store with VP prices
+- Daily weapon store with VP prices, each weapon tinted with its **rarity tier**
 - Featured bundles with remaining time (`2d 8h`, `1h 30m`)
 - Full skin preview: levels, chromas, videos
 - Accessory store (sprays, buddies, cards, titles with KC prices)
 - Live wallet: VP, RP, Kernel Credits
+- Bundle contents in a wide panel, rarity colours included
 - **Share** your Store, Night Market, or Accessories as a branded image, copied to your clipboard — ready to paste in Discord
 
 ### Match History & Career Stats
@@ -140,7 +145,9 @@
 - Full game stats: K/D/A, ACS, HS%, W/L, RR delta
 - Click any match for a detailed scoreboard with **advanced stats** — ADR, first kills / deaths, plants / defuses, and **multikill badges** (2K / 3K / 4K / Ace)
 - **Platform tags** per player (PC / PS5 / Xbox) so console ranks are never mistaken for PC ranks
+- Five tabs per match: **Players**, **Rounds**, **Duels** (list or all-vs-all matrix), **Performance** and **Economy**
 - Both teams ranked by performance, with agent icons, map info, and player ranks
+- **PC ⇄ console toggle** on both your rank and your match history
 - Recent stats summary: win rate, K/D ratio, headshot %
 - **World Leaderboard** — regional competitive ranking, with your own position highlighted
 
