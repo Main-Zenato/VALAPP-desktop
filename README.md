@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Main-Zenato/VALAPP-desktop/main/.github/assets/VALAPP.png" width="150" alt="VALAPP">
+</p>
+
 # VALAPP Desktop — Modern Companion for VALORANT
 
 [![Download](https://img.shields.io/badge/Download-Latest%20Release-brightgreen)](https://github.com/Main-Zenato/VALAPP-desktop/releases/latest)
@@ -16,7 +20,6 @@
 
 ## Table of Contents
 
-- [What's New in 5.5](#whats-new-in-55)
 - [Screenshots](#screenshots)
 - [Core Features](#core-features)
 - [Privacy & Security](#privacy--security)
@@ -27,37 +30,7 @@
 
 ---
 
-## What's New in 5.5
-
-**Console players**
-- **Console rank & match history** — a player's console rank, peak and recent console games, on your own profile and on anyone you inspect. PC and console are two separate ranked queues, and the app now reads both instead of showing PC data only.
-
-**Match analysis**
-- **Performance tab** — score per round charted against the lobby average, weapons and abilities used, site preference and conversion
-- **Economy tab** — spending, loadout value, damage per 1000 credits and credits left on death, each compared with the rest of the lobby
-- **Duels matrix** — a grid of who beats who, both teams at a glance, alongside the existing per-duel breakdown
-- **Pick the analysed player** — Performance and Economy work on anyone in the match, not just you
-- **Attack / defense filter**
-- Abilities are **named and illustrated** instead of a generic "ability"
-
-**Store**
-- Weapons are **tinted with their rarity tier** — Deluxe, Select, Premium, Exclusive, Ultra — across the daily store, night market, bundles and shared images
-- Bundle contents open in a **wider panel**
-- Flex items finally show up in bundle contents
-
-**Quality of life**
-- The **full profile** replaces the side drawer everywhere — one and the same view from the profile, the party and the friends list
-- A **What's new** button in Settings opens the release notes, in your language
-
-**Fixes**
-- Misread scores no longer show up as "Draw 0 – 0"
-- The skin preview no longer closes while you resize it
-- Stray scrollbars removed
-
-**Under the hood**
-- Match loading, rank display and party detection are noticeably faster
-
-> Older versions are listed on the [releases page](https://github.com/Main-Zenato/VALAPP-desktop/releases), and in-app under **Settings → What's new**.
+> **What's new:** every version is detailed on the [releases page](https://github.com/Main-Zenato/VALAPP-desktop/releases), and in-app under **Settings → What's new**, in your language.
 
 ---
 
@@ -69,20 +42,38 @@
 ### Collection Manager
 ![Collection](https://raw.githubusercontent.com/Main-Zenato/VALAPP-desktop/main/.github/assets/collection.png)
 
-### Match History & Career Stats
-![Profile](https://raw.githubusercontent.com/Main-Zenato/VALAPP-desktop/main/.github/assets/profile.png)
-
-### Contracts & XP
-![Contracts](https://raw.githubusercontent.com/Main-Zenato/VALAPP-desktop/main/.github/assets/contrat.png)
-
 ### Loadout Presets by Map
 ![Loadout Presets](https://raw.githubusercontent.com/Main-Zenato/VALAPP-desktop/main/.github/assets/presets.png)
+
+### Contracts & XP
+![Contracts](https://raw.githubusercontent.com/Main-Zenato/VALAPP-desktop/main/.github/assets/contracts.png)
+
+### Group & Friends
+![Group and Friends](https://raw.githubusercontent.com/Main-Zenato/VALAPP-desktop/main/.github/assets/party.png)
+
+### Match History & Career Stats
+![Profile](https://raw.githubusercontent.com/Main-Zenato/VALAPP-desktop/main/.github/assets/profile.png)
 
 ### Premier
 ![Premier](https://raw.githubusercontent.com/Main-Zenato/VALAPP-desktop/main/.github/assets/premier.png)
 
+### Season Goal
+![Season Goal](https://raw.githubusercontent.com/Main-Zenato/VALAPP-desktop/main/.github/assets/objective.png)
+
+### Game Info
+![Game Info](https://raw.githubusercontent.com/Main-Zenato/VALAPP-desktop/main/.github/assets/info.png)
+
+### Lineups & Tips
+![Lineups](https://raw.githubusercontent.com/Main-Zenato/VALAPP-desktop/main/.github/assets/lineups.png)
+
+### Backups
+![Backups](https://raw.githubusercontent.com/Main-Zenato/VALAPP-desktop/main/.github/assets/backups.png)
+
 ### Crosshair Generator
 ![Crosshair Generator](https://raw.githubusercontent.com/Main-Zenato/VALAPP-desktop/main/.github/assets/crosshair.png)
+
+### Settings
+![Settings](https://raw.githubusercontent.com/Main-Zenato/VALAPP-desktop/main/.github/assets/settings.png)
 
 ---
 
@@ -99,12 +90,13 @@
 ### Live Match Intelligence
 **See your team composition in real-time.**
 
-- Party members with current rank and RR
+- Party members shown as **side-by-side slots** — each player's card as the background, account level and rank. Empty slots are shown too, so you see how many are left; click one to invite a friend without leaving the view
 - **Premade detection** — see which players queued together as a group, on both your team and the enemy's
 - Enemy agent selection as the game reveals them
-- Live Attack / Defense sides (updates at halftime)
-- Map name and splash art
-- Score updates
+- Live Attack / Defense sides (updates at halftime) — **your team always stays on the left**, it's the side label that swaps
+- Both teams side by side when there's room: ten players on screen without scrolling, even at 1080p
+- Map name, splash art and live score
+- **Dodge warning** — Riot escalates the penalty with every dodge in the same day, so the app tells you what a second one costs before you click
 
 ### Collection Manager — Browse Everything
 **Organize and equip your entire inventory from one interface.**
@@ -146,6 +138,9 @@
 - Click any match for a detailed scoreboard with **advanced stats** — ADR, first kills / deaths, plants / defuses, and **multikill badges** (2K / 3K / 4K / Ace)
 - **Platform tags** per player (PC / PS5 / Xbox) so console ranks are never mistaken for PC ranks
 - Five tabs per match: **Players**, **Rounds**, **Duels** (list or all-vs-all matrix), **Performance** and **Economy**
+- **Kills per round** — one row per round, every portrait is a player who died and the medallion shows who killed them; revives and spike deaths are flagged
+- Ceremonies are named: Ace, Team Ace, Flawless, Thrifty, Closer, Clutch
+- Ability usage per player, and rounds played AFK are flagged
 - Both teams ranked by performance, with agent icons, map info, and player ranks
 - **PC ⇄ console toggle** on both your rank and your match history
 - Recent stats summary: win rate, K/D ratio, headshot %
@@ -170,8 +165,11 @@
 - Rank icons and current RR
 - **In-app chat** — send and receive messages in real time, with persistent history and unread badges
 - **Roster management** — add or remove friends, and accept or decline incoming/outgoing friend requests
+- Friends sorted from **most to least joinable**, with the score as a badge for those in a match
 - Click any friend to inspect stats
 - Send party invitations directly through XMPP
+- **Invite codes** — create a code for your party, share it, disable it, or join a friend's party with theirs
+- **Open or close your party**, and handle **incoming join requests** by name — accept or decline from the app
 
 ### Player Inspector — Lobby Scout
 **Instantly check any player's recent form — from party, live match, friends, or match history.**
@@ -180,6 +178,7 @@
 - **Recent ranked form**: rank trajectory (where they started → where they are now) with the RR gained or lost on each of their recent games — including a clear marker for two-tier jumps
 - **Platform-aware** — a player's ranks are labeled by platform (PC / console), never mixed
 - **Previous-act notice** when a player is unranked this act — so old stats are never mistaken for their current standing
+- **Follow the thread** — open a match, then inspect anyone who played in it, then anyone from *their* matches, with a back button all the way up
 - Loads one player at a time, on click — lightweight and rate-limit friendly
 
 ### Contracts & XP
@@ -225,8 +224,10 @@
 ### Lineups & Tips
 **Community clips for the map you're about to play.**
 
-- Curated lineup and tip clips surfaced in-app
-- Watch without leaving VALAPP
+- Browse curated lineup and tip clips, filtered by map and agent
+- **Suggested during agent select** — a clip matching your agent, the map and your side, right when it's useful. It stops shortly after the round starts, and another plays at halftime
+- **Enlarge the clip** in one click when the small player isn't enough; the choice is remembered
+- Watch without leaving VALAPP — and if your network can't reach the host, the app says so plainly and offers to open the clip in your browser
 
 ### Crosshair Generator
 **Design a crosshair and export it in one click.**
@@ -236,14 +237,22 @@
 - Ready-made models to start from
 - Import any VALORANT crosshair code, or copy yours to share
 
-### Game Settings Snapshots
+### Backups
 **Save your in-game settings and re-apply them anytime — even on another account.**
 
 - Capture your VALORANT settings: crosshair, sensitivity, keybinds, audio, minimap, HUD…
-- Save multiple named snapshots
-- Re-apply a snapshot to the active account in one click — settings are copied faithfully across accounts
-- Recapture before applying = a built-in backup
-- Works with the game closed (video/graphics options are stored locally on the PC and aren't affected)
+- Save multiple named backups, with a three-step walkthrough and a confirmation that names the account about to be overwritten
+- Re-apply one to the active account in one click — settings are copied faithfully across accounts
+- Recapture before applying = a way back
+- Works with the game closed. Resolution and graphics options are **not** included: they live on your PC, Riot never syncs them
+
+### Discord Rich Presence
+**Show what you're up to — only if you want to.**
+
+- Displays the section you're browsing on your Discord profile — Store, Collection, Objective…
+- During a game, shows the **map, mode, live score and your agent**
+- Optionally adds your **rank** as a badge — your call, asked once
+- **Off by default** — and your Riot ID is never published
 
 ### Server Status Monitor
 **Check Riot infrastructure in real-time.**
