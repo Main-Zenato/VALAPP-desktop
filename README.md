@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Main-Zenato/VALAPP-desktop/main/.github/assets/VALAPP.png" width="150" alt="VALAPP">
+  <img src=".github/assets/VALAPP.png" width="150" alt="VALAPP">
 </p>
 
 # VALAPP Desktop — Modern Companion for VALORANT
@@ -37,43 +37,43 @@
 ## Screenshots
 
 ### Daily Store
-![Store](https://raw.githubusercontent.com/Main-Zenato/VALAPP-desktop/main/.github/assets/store.png)
+![Store](.github/assets/store.png)
 
 ### Collection Manager
-![Collection](https://raw.githubusercontent.com/Main-Zenato/VALAPP-desktop/main/.github/assets/collection.png)
+![Collection](.github/assets/collection.png)
 
 ### Loadout Presets by Map
-![Loadout Presets](https://raw.githubusercontent.com/Main-Zenato/VALAPP-desktop/main/.github/assets/presets.png)
+![Loadout Presets](.github/assets/presets.png)
 
 ### Contracts & XP
-![Contracts](https://raw.githubusercontent.com/Main-Zenato/VALAPP-desktop/main/.github/assets/contracts.png)
+![Contracts](.github/assets/contracts.png)
 
 ### Group & Friends
-![Group and Friends](https://raw.githubusercontent.com/Main-Zenato/VALAPP-desktop/main/.github/assets/party.png)
+![Group and Friends](.github/assets/party.png)
 
 ### Match History & Career Stats
-![Profile](https://raw.githubusercontent.com/Main-Zenato/VALAPP-desktop/main/.github/assets/profile.png)
+![Profile](.github/assets/profile.png)
 
 ### Premier
-![Premier](https://raw.githubusercontent.com/Main-Zenato/VALAPP-desktop/main/.github/assets/premier.png)
+![Premier](.github/assets/premier.png)
 
 ### Season Goal
-![Season Goal](https://raw.githubusercontent.com/Main-Zenato/VALAPP-desktop/main/.github/assets/objective.png)
+![Season Goal](.github/assets/objective.png)
 
 ### Game Info
-![Game Info](https://raw.githubusercontent.com/Main-Zenato/VALAPP-desktop/main/.github/assets/info.png)
+![Game Info](.github/assets/info.png)
 
 ### Lineups & Tips
-![Lineups](https://raw.githubusercontent.com/Main-Zenato/VALAPP-desktop/main/.github/assets/lineups.png)
+![Lineups](.github/assets/lineups.png)
 
 ### Backups
-![Backups](https://raw.githubusercontent.com/Main-Zenato/VALAPP-desktop/main/.github/assets/backups.png)
+![Backups](.github/assets/backups.png)
 
 ### Crosshair Generator
-![Crosshair Generator](https://raw.githubusercontent.com/Main-Zenato/VALAPP-desktop/main/.github/assets/crosshair.png)
+![Crosshair Generator](.github/assets/crosshair.png)
 
 ### Settings
-![Settings](https://raw.githubusercontent.com/Main-Zenato/VALAPP-desktop/main/.github/assets/settings.png)
+![Settings](.github/assets/settings.png)
 
 ---
 
