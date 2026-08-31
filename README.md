@@ -16,11 +16,12 @@
 
 **Made by a player.** 100% local — no telemetry, no tracking, no data resale.
 
+![VALAPP Desktop](.github/assets/store.png)
+
 ---
 
 ## Table of Contents
 
-- [Screenshots](#screenshots)
 - [Core Features](#core-features)
 - [Privacy & Security](#privacy--security)
 - [Getting Started](#getting-started)
@@ -31,49 +32,6 @@
 ---
 
 > **What's new:** every version is detailed on the [releases page](https://github.com/Main-Zenato/VALAPP-desktop/releases), and in-app under **Settings → What's new**, in your language.
-
----
-
-## Screenshots
-
-### Daily Store
-![Store](.github/assets/store.png)
-
-### Collection Manager
-![Collection](.github/assets/collection.png)
-
-### Loadout Presets by Map
-![Loadout Presets](.github/assets/presets.png)
-
-### Contracts & XP
-![Contracts](.github/assets/contracts.png)
-
-### Group & Friends
-![Group and Friends](.github/assets/party.png)
-
-### Match History & Career Stats
-![Profile](.github/assets/profile.png)
-
-### Premier
-![Premier](.github/assets/premier.png)
-
-### Season Goal
-![Season Goal](.github/assets/objective.png)
-
-### Game Info
-![Game Info](.github/assets/info.png)
-
-### Lineups & Tips
-![Lineups](.github/assets/lineups.png)
-
-### Backups
-![Backups](.github/assets/backups.png)
-
-### Crosshair Generator
-![Crosshair Generator](.github/assets/crosshair.png)
-
-### Settings
-![Settings](.github/assets/settings.png)
 
 ---
 
@@ -111,6 +69,9 @@
 | **Titles** | Set active title with one click |
 | **Equipped Status** | Green checkmark on all currently active items |
 
+
+![Collection](.github/assets/collection.png)
+
 ### Loadout Presets — Per-Map Configs
 **Save full loadouts and apply them in one click.**
 
@@ -119,6 +80,9 @@
 - Assign each preset to **one or more maps**
 - In **Agent Select**, VALAPP suggests the matching preset — apply it instantly (pick from a list when several match)
 - Everything runs through the standard loadout flow — one clean write, no game files touched
+
+
+![Loadout presets](.github/assets/presets.png)
 
 ### Daily Store & Bundles
 **Track your shop without launching the official client.**
@@ -146,6 +110,9 @@
 - Recent stats summary: win rate, K/D ratio, headshot %
 - **World Leaderboard** — regional competitive ranking, with your own position highlighted
 
+
+![Match history](.github/assets/profile.png)
+
 ### Multi-Account Manager
 **Switch between Riot accounts instantly.**
 
@@ -171,6 +138,9 @@
 - **Invite codes** — create a code for your party, share it, disable it, or join a friend's party with theirs
 - **Open or close your party**, and handle **incoming join requests** by name — accept or decline from the app
 
+
+![Group and friends](.github/assets/party.png)
+
 ### Player Inspector — Lobby Scout
 **Instantly check any player's recent form — from party, live match, friends, or match history.**
 
@@ -191,6 +161,9 @@
 - **Account XP & level** card with progression, plus **daily XP checkpoints**
 - **Per-match breakdown** — XP and Kingdom Credits earned, including the first-win-of-the-day bonus
 
+
+![Contracts and XP](.github/assets/contracts.png)
+
 ### Purchase History
 **Every payment and in-game transaction, in one place.**
 
@@ -206,6 +179,9 @@
 - Ranked stats and a simple estimate of what's left
 - Tracking starts the moment you set a goal — no noise before that
 
+
+![Season goal](.github/assets/objective.png)
+
 ### Premier
 **Follow your Premier team, its ranking, and the season schedule.**
 
@@ -214,12 +190,18 @@
 - Eligibility status
 - Season schedule by conference — upcoming match nights and tournaments, with local times and countdowns
 
+
+![Premier](.github/assets/premier.png)
+
 ### Game Info
 **Agents, Maps, and Weapons — right inside the app.**
 
 - **Agents** — role, abilities, and descriptions
 - **Maps** — annotatable 2D layouts (draw callouts and setups)
 - **Weapons** — stats and damage breakdown
+
+
+![Game info](.github/assets/info.png)
 
 ### Lineups & Tips
 **Community clips for the map you're about to play.**
@@ -229,6 +211,9 @@
 - **Enlarge the clip** in one click when the small player isn't enough; the choice is remembered
 - Watch without leaving VALAPP — and if your network can't reach the host, the app says so plainly and offers to open the clip in your browser
 
+
+![Lineups](.github/assets/lineups.png)
+
 ### Crosshair Generator
 **Design a crosshair and export it in one click.**
 
@@ -236,6 +221,9 @@
 - Primary, ADS, and Sniper profiles
 - Ready-made models to start from
 - Import any VALORANT crosshair code, or copy yours to share
+
+
+![Crosshair generator](.github/assets/crosshair.png)
 
 ### Backups
 **Save your in-game settings and re-apply them anytime — even on another account.**
@@ -245,6 +233,9 @@
 - Re-apply one to the active account in one click — settings are copied faithfully across accounts
 - Recapture before applying = a way back
 - Works with the game closed. Resolution and graphics options are **not** included: they live on your PC, Riot never syncs them
+
+
+![Backups](.github/assets/backups.png)
 
 ### Discord Rich Presence
 **Show what you're up to — only if you want to.**
@@ -284,6 +275,9 @@
 - **Danger zone**: Clear all accounts, or clear the collection / match cache for a clean reset
 
 ---
+
+
+![Settings](.github/assets/settings.png)
 
 ## Privacy & Security
 
