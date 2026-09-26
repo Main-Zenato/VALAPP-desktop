@@ -101,7 +101,7 @@
 ### Match History & Career Stats
 **Detailed breakdown of every competitive match.**
 
-- Full game stats: K/D/A, ACS, HS%, W/L, RR delta
+- Full game stats: K/D/A, Score, HS%, W/L, RR delta
 - Click any match for a detailed scoreboard with **advanced stats** — ADR, first kills / deaths, plants / defuses, and **multikill badges** (2K / 3K / 4K / Ace)
 - **Platform tags** per player (PC / PS5 / Xbox) so console ranks are never mistaken for PC ranks
 - Five tabs per match: **Players**, **Rounds**, **Duels** (list or all-vs-all matrix), **Performance** and **Economy** — the last two now also show armor bought per round and Riot's behavior signals
