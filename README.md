@@ -48,7 +48,9 @@
 ### Live Match Intelligence
 **See your team composition in real-time.**
 
-- Party members shown as **side-by-side slots** — each player's card as the background, account level and rank. Empty slots are shown too, so you see how many are left; click one to invite a friend without leaving the view
+- Party members shown as **side-by-side slots** — each player's card as the background, account level and rank, **tinted with that rank's own color** so the lobby's skill spread reads at a glance. Empty slots are shown too, so you see how many are left; click one to invite a friend without leaving the view
+- **Invitations you receive** show up in the party screen — join or decline without alt-tabbing
+- **Shareable invite link** alongside the code, the same one the game hands out
 - **Premade detection** — see which players queued together as a group, on both your team and the enemy's
 - Enemy agent selection as the game reveals them
 - Live Attack / Defense sides (updates at halftime) — **your team always stays on the left**, it's the side label that swaps
@@ -68,6 +70,7 @@
 | **Player Cards** | Wide and standard art formats, equip globally |
 | **Titles** | Set active title with one click |
 | **Equipped Status** | Green checkmark on all currently active items |
+| **Prices** | VP price for every skin in the weapon catalog, and the Radianite cost to upgrade the ones you own |
 
 
 ![Collection](.github/assets/collection.png)
@@ -101,7 +104,13 @@
 - Full game stats: K/D/A, ACS, HS%, W/L, RR delta
 - Click any match for a detailed scoreboard with **advanced stats** — ADR, first kills / deaths, plants / defuses, and **multikill badges** (2K / 3K / 4K / Ace)
 - **Platform tags** per player (PC / PS5 / Xbox) so console ranks are never mistaken for PC ranks
-- Five tabs per match: **Players**, **Rounds**, **Duels** (list or all-vs-all matrix), **Performance** and **Economy**
+- Five tabs per match: **Players**, **Rounds**, **Duels** (list or all-vs-all matrix), **Performance** and **Economy** — the last two now also show armor bought per round and Riot's behavior signals
+- **Performance score** — the 0-500 score from patch 13.06 with its eight factors broken down, and the match MVP as Riot names them
+- **End-of-match medals** — the twelve distinctions Riot awards, with your value for each, per match and across the act, plus your best result
+- **Round map** — where every player stood and which way they were looking, drawn on the map's own layout
+- **Where your RR came from** — performance bonus, double-tier adjustment, group skill-disparity penalty, and the AFK penalty Riot applied
+- **Rank shields** — how many losses at 0 RR you can take before dropping a tier
+- **Gauntlet Glitched** — the eight-faction mode is fully supported, with one color per duo as in game and scores over the right number of rounds
 - **Kills per round** — one row per round, every portrait is a player who died and the medallion shows who killed them; revives and spike deaths are flagged
 - Ceremonies are named: Ace, Team Ace, Flawless, Thrifty, Closer, Clutch
 - Ability usage per player, and rounds played AFK are flagged
@@ -133,6 +142,8 @@
 - **In-app chat** — send and receive messages in real time, with persistent history and unread badges
 - **Roster management** — add or remove friends, and accept or decline incoming/outgoing friend requests
 - Friends sorted from **most to least joinable**, with the score as a badge for those in a match
+- **Friends playing together are grouped and colored**, so you see the squad rather than five separate rows — and each member keeps their own status, since one can be in the range while the others are in the menus
+- **Match progress at a glance** — a bar that tells you roughly when they'll be free
 - Click any friend to inspect stats
 - Send party invitations directly through XMPP
 - **Invite codes** — create a code for your party, share it, disable it, or join a friend's party with theirs
@@ -160,6 +171,9 @@
 - Browse **previous battle passes**
 - **Account XP & level** card with progression, plus **daily XP checkpoints**
 - **Per-match breakdown** — XP and Kingdom Credits earned, including the first-win-of-the-day bonus
+- **Agent mastery** — the system that replaced agent contracts in patch 13.06: lifetime level, a ten-step act track, and the mastery each match earned you
+- **The full agent pass** — all 28 rewards of any agent's track as large cards, clickable for details, with what each one costs in Kingdom Credits
+- **Agent card counters** — the thirteen stats the game tracks per agent, including the seven you buy on the mastery track. The ones on your card stand out, the rest stay readable behind them
 
 
 ![Contracts and XP](.github/assets/contracts.png)
@@ -196,9 +210,10 @@
 ### Game Info
 **Agents, Maps, and Weapons — right inside the app.**
 
-- **Agents** — role, abilities, and descriptions
-- **Maps** — annotatable 2D layouts (draw callouts and setups)
-- **Weapons** — stats and damage breakdown
+- **Agents** — role, abilities, and descriptions, plus your mastery and agent card counters
+- **Maps** — annotatable 2D layouts (draw callouts and setups), with **every callout name placed on the layout** at one click
+- **Weapons** — stats, damage breakdown, and **how many bullets it takes to kill** at each range against every shield, with the time that takes
+- **Smoke durations, costs and cooldowns** — numbers the game shows nowhere. Riot doesn't publish them, so they're recorded by hand and the patch they were checked against is shown next to them
 
 
 ![Game info](.github/assets/info.png)
